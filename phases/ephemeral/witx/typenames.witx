@@ -273,8 +273,9 @@
   )
 )
 
-;; A file descriptor index.
-(typename $fd_t u32)
+;; A file descriptor is a handle to an external object. It is represented
+;; as an i32 in the C ABI.
+(typename $fd_t (handle))
 
 ;; A region of memory for scatter/gather reads.
 (typename $iovec_t
