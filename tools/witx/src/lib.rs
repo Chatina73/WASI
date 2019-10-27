@@ -15,9 +15,9 @@ mod validate;
 
 pub use ast::{
     AliasDatatype, BuiltinType, Datatype, DatatypeIdent, DatatypeVariant, Definition, Document,
-    Entry, EnumDatatype, FlagsDatatype, Id, IntRepr, InterfaceFunc, InterfaceFuncParam,
-    InterfaceFuncParamPosition, Module, ModuleDefinition, ModuleEntry, ModuleImport,
-    ModuleImportVariant, StructDatatype, StructMember, UnionDatatype, UnionVariant,
+    Entry, EnumDatatype, FlagsDatatype, HandleDatatype, Id, IntRepr, InterfaceFunc,
+    InterfaceFuncParam, InterfaceFuncParamPosition, Module, ModuleDefinition, ModuleEntry,
+    ModuleImport, ModuleImportVariant, StructDatatype, StructMember, UnionDatatype, UnionVariant,
 };
 pub use coretypes::{AtomType, CoreFuncType, CoreParamSignifies, CoreParamType, DatatypePassedBy};
 pub use io::{Filesystem, MockFs, WitxIo};
