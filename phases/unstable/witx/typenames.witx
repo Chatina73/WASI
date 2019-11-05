@@ -576,7 +576,7 @@
 )
 
 ;; The contents of a $subscription.
-(typename $u
+(typename $subscription_u
   (union
     ;; When type is `EVENTTYPE_CLOCK`:
     (field $clock $clock)
@@ -594,7 +594,7 @@
     ;; The type of the event to which to subscribe.
     (field $type $eventtype)
     ;; The contents of the subscription.
-    (field $u $u)
+    (field $u $subscription_u)
   )
 )
 
