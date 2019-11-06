@@ -211,6 +211,7 @@ impl DocValidationScope<'_> {
                     name.clone(),
                     definitions,
                     module_validator.entries,
+                    comments.docs(),
                 ));
                 self.doc
                     .entries
